@@ -1,5 +1,5 @@
 import { Users, HandHeart, GraduationCap, Heart } from "lucide-react";
-import "./Connect.css";
+import "./connect.css";
 
 const groups = [
   {
