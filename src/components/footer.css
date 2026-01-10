@@ -1,0 +1,146 @@
+.footer {
+  background-color: hsl(var(--foreground));
+  color: hsl(var(--primary-foreground));
+  padding: 4rem 0 5rem;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 5rem 0;
+  }
+}
+
+.footer__container {
+  padding: 0 1.5rem;
+}
+
+.footer__grid {
+  display: grid;
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 640px) {
+  .footer__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.footer__brand {
+  grid-column: span 1;
+}
+
+@media (min-width: 640px) {
+  .footer__brand {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer__brand {
+    grid-column: span 1;
+  }
+}
+
+.footer__logo {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.footer__tagline {
+  color: hsla(40, 33%, 97%, 0.7);
+  font-size: 0.875rem;
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+}
+
+.footer__social {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__social-link {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: hsla(40, 33%, 97%, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.footer__social-link:hover {
+  background-color: hsla(40, 33%, 97%, 0.2);
+}
+
+.footer__column-title {
+  font-weight: 500;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.footer__links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer__link {
+  color: hsla(40, 33%, 97%, 0.7);
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.2s;
+}
+
+.footer__link:hover {
+  color: var(--primary-foreground);
+}
+
+.footer__bottom {
+  padding-top: 2rem;
+  border-top: 1px solid hsla(40, 33%, 97%, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .footer__bottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.footer__copyright {
+  color: hsl(40, 33%, 97% / 0.5);
+  font-size: 0.875rem;
+}
+
+.footer__legal {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer__legal-link {
+  color: hsla(40, 33%, 97%, 0.5);
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.2s;
+}
+
+.footer__legal-link:hover {
+  color: hsla(40, 33%, 97%, 0.7);
+}
