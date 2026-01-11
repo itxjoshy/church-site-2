@@ -18,9 +18,6 @@ export const Header = () => {
       <div className="header-container">
         <a href="#" className="logo">
           <img src={logo} alt="" />
-          <span className="logo-text">
-            Fountain Of <span className="logo-accent">Life</span>
-          </span>
         </a>
 
         {/* Desktop Nav */}
