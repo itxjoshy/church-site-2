@@ -6,6 +6,7 @@ export const Visit = () => {
     <section id="visit" className="visit">
       <div className="container visit__container">
         <div className="visit__grid">
+          {/* LEFT CONTENT */}
           <div>
             <p className="visit__eyebrow">Plan Your Visit</p>
             <h2 className="visit__title">
@@ -25,7 +26,9 @@ export const Visit = () => {
                 <div>
                   <h4 className="visit__contact-label">Address</h4>
                   <p className="visit__contact-value">
-                    123 Faith Avenue, Grace Valley, CA 90210
+                    510 Coronation Dr Unit 17
+                    <br />
+                    Scarborough, ON M1E 4X6, Canada
                   </p>
                 </div>
               </div>
@@ -70,50 +73,14 @@ export const Visit = () => {
             </button>
           </div>
 
-          <div className="visit__card">
-            <h3 className="visit__card-title">What to Expect</h3>
-            <div className="visit__steps">
-              <div className="visit__step">
-                <span className="visit__step-number">1</span>
-                <div>
-                  <h4 className="visit__step-title">Warm Welcome</h4>
-                  <p className="visit__step-description">
-                    Friendly greeters will help you find your way and answer any
-                    questions.
-                  </p>
-                </div>
-              </div>
-
-              <div className="visit__step">
-                <span className="visit__step-number">2</span>
-                <div>
-                  <h4 className="visit__step-title">Inspiring Worship</h4>
-                  <p className="visit__step-description">
-                    Contemporary and traditional music that uplifts the soul.
-                  </p>
-                </div>
-              </div>
-
-              <div className="visit__step">
-                <span className="visit__step-number">3</span>
-                <div>
-                  <h4 className="visit__step-title">Relevant Teaching</h4>
-                  <p className="visit__step-description">
-                    Biblical messages that apply to your everyday life.
-                  </p>
-                </div>
-              </div>
-
-              <div className="visit__step">
-                <span className="visit__step-number">4</span>
-                <div>
-                  <h4 className="visit__step-title">Kids Cared For</h4>
-                  <p className="visit__step-description">
-                    Safe, engaging programs for children of all ages.
-                  </p>
-                </div>
-              </div>
-            </div>
+          {/* RIGHT MAP CARD */}
+          <div className="visit__card visit__map-card">
+            <iframe
+              title="Church Location"
+              src="https://www.google.com/maps?q=510+Coronation+Dr+Unit+17,+Scarborough,+ON+M1E+4X6,+Canada&output=embed"
+              loading="lazy"
+              allowFullScreen
+            />
           </div>
         </div>
       </div>
