@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 import "./header.css";
 const navLinks = [
   { label: "About", href: "#about" },
@@ -16,6 +17,7 @@ export const Header = () => {
     <header className="header">
       <div className="header-container">
         <a href="#" className="logo">
+          <img src={logo} alt="" />
           <span className="logo-text">
             Fountain Of <span className="logo-accent">Life</span>
           </span>
