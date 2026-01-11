@@ -13,7 +13,7 @@ export const Hero = () => {
       {/* Content */}
       <div className="hero__content__container">
         <p className="hero__text" style={{ animationDelay: "0.2s" }}>
-          Welcome Home To
+          Welcome Home To RCCG
         </p>
 
         <h1 className="hero__title" style={{ animationDelay: "0.4s" }}>
