@@ -28,11 +28,11 @@ export const About = () => {
       <div className="container about__container">
         <div className="about__header">
           <p className="about__eyebrow">Who We Are</p>
-          <h2 className="about__title">A Community Rooted in Faith</h2>
+          <h2 className="about__title">A Family Church Rooted in Faith</h2>
           <p className="about__description">
-            For over 50 years, Grace Community Church has been a place where
-            people from all walks of life come to experience God's love, grow in
-            their faith, and find meaningful connections with others.
+            Fountain of life has been a place where people from all walks of
+            life come to experience God's love, grow in their faith, and find
+            meaningful connections with others.
           </p>
         </div>
 

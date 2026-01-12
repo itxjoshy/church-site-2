@@ -35,11 +35,11 @@ export const Hero = () => {
         <div className="hero-services" style={{ animationDelay: "1s" }}>
           <div className="service">
             <p className="day">Sunday</p>
-            <p className="time">9:00 & 11:00 AM</p>
+            <p className="time">10 AM</p>
           </div>
           <div className="divider" />
           <div className="service">
-            <p className="day">Wednesday</p>
+            <p className="day">Wednesday - online </p>
             <p className="time">7:00 PM</p>
           </div>
         </div>

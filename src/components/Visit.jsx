@@ -39,9 +39,7 @@ export const Visit = () => {
                 </div>
                 <div>
                   <h4 className="visit__contact-label">Service Times</h4>
-                  <p className="visit__contact-value">
-                    Sundays at 9:00 AM & 11:00 AM
-                  </p>
+                  <p className="visit__contact-value">Sundays at 10 AM</p>
                 </div>
               </div>
 
@@ -61,9 +59,7 @@ export const Visit = () => {
                 </div>
                 <div>
                   <h4 className="visit__contact-label">Email</h4>
-                  <p className="visit__contact-value">
-                    hello@gracecommunity.church
-                  </p>
+                  <p className="visit__contact-value">fol_rccg@yahoo.ca</p>
                 </div>
               </div>
             </div>
