@@ -4,15 +4,15 @@ import "./services.css";
 const services = [
   {
     day: "Sunday Morning",
-    times: ["9:00 AM", "11:00 AM"],
+    times: ["10:00 AM"],
     description: "Traditional worship with contemporary elements",
     features: ["Live Worship", "Children's Ministry"],
     icons: [Music, Baby],
   },
   {
-    day: "Wednesday Evening",
+    day: "Wednesday Evening - online",
     times: ["7:00 PM"],
-    description: "Midweek Bible study and prayer",
+    description: "Online Prayer Meetings",
     features: ["Small Groups", "Youth Ministry"],
     icons: [Clock, Clock],
   },
@@ -64,7 +64,9 @@ export const Services = () => {
         <div className="services__location">
           <div className="services__location-inner">
             <MapPin size={18} className="services__location-icon" />
-            <span>123 Faith Avenue, Grace Valley, CA 90210</span>
+            <span>
+              510 Coronation Dr Unit 17 Scarborough, ON M1E 4X6, Canada
+            </span>
           </div>
         </div>
       </div>

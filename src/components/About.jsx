@@ -30,9 +30,9 @@ export const About = () => {
           <p className="about__eyebrow">Who We Are</p>
           <h2 className="about__title">A Family Church Rooted in Faith</h2>
           <p className="about__description">
-            Fountain of life has been a place where people from all walks of
-            life come to experience God's love, grow in their faith, and find
-            meaningful connections with others.
+            For 12 years, fountain of life has been a place where people from
+            all walks of life come to experience God's love, grow in their
+            faith, and find meaningful connections with others.
           </p>
         </div>
 
