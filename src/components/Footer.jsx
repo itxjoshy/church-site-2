@@ -92,7 +92,7 @@ export const Footer = () => {
 
         <div className="footer__bottom">
           <p className="footer__copyright">
-            © 2025 Grace Community Church. All rights reserved.
+            © 2026 Fountain Of Life. All rights reserved.
           </p>
           <div className="footer__legal">
             <a href="#" className="footer__legal-link">
