@@ -28,7 +28,7 @@ export const Footer = () => {
       <div className="container footer__container">
         <div className="footer__grid">
           <div className="footer__brand">
-            <h3 className="footer__logo">Grace Community</h3>
+            <h3 className="footer__logo">Fountain Of Life</h3>
             <p className="footer__tagline">
               A place where everyone belongs. Come experience the love of Christ
               in a welcoming community.
