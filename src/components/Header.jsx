@@ -30,6 +30,7 @@ export const Header = () => {
           <div
             style={{
               display: "flex",
+              alignItems: "center",
               gap: 20,
               marginLeft: 10,
             }}
