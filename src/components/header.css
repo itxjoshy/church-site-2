@@ -44,7 +44,7 @@ header a {
   text-decoration: none;
 }
 .logo > img {
-  width: 80px;
+  width: 70px;
 }
 .logo-text {
   font-family: var(--font-serif);
@@ -127,6 +127,11 @@ header a {
 .visit-button-mobile {
   width: 100%;
   margin-top: 1rem;
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  padding: 0.7rem;
+  border-radius: 2px;
+  border: none;
 }
 
 /* Animations */

@@ -80,7 +80,7 @@ export const Header = () => {
                 {link.label}
               </a>
             ))}
-            <Button className="visit-button-mobile">Plan Your Visit</Button>
+            <button className="visit-button-mobile">Plan Your Visit</button>
           </div>
         </nav>
       )}
