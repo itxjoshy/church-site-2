@@ -27,8 +27,12 @@ export const Hero = () => {
         </p>
 
         <div className="hero-buttons" style={{ animationDelay: "0.8s" }}>
-          <button className="hero-button primary">Join Us Sunday</button>
-          <button className="hero-button outline">Learn More</button>
+          <a
+            href="https://youtube.com/@rccgfountainoflifescarboro8129?si=ndAK1NcQz-MhdKM3"
+            target="_blank"
+          >
+            <button className="hero-button primary">Join Us Sunday</button>
+          </a>
         </div>
 
         {/* Service Times */}
