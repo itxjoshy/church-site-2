@@ -34,9 +34,24 @@ export const Header = () => {
               marginLeft: 10,
             }}
           >
-            <Youtube size={20} />
-            <Instagram size={20} />
-            <Facebook size={20} />
+            <a
+              href="https://youtube.com/@rccgfountainoflifescarboro8129?si=ndAK1NcQz-MhdKM3"
+              target="_blank"
+            >
+              <Youtube size={20} />
+            </a>
+            <a
+              href="https://www.instagram.com/rccg_fol_ca?igsh=MW1qNmRyeml2M2JoMQ%3D%3D&utm_source=qr"
+              target="_blank"
+            >
+              <Instagram size={20} />
+            </a>
+            <a
+              href="https://www.facebook.com/share/17tzAGCpfM/?mibextid=wwXIfr"
+              target="_blank"
+            >
+              <Facebook size={20} />
+            </a>
           </div>
         </nav>
 
