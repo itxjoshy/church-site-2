@@ -80,35 +80,35 @@ export const Header = () => {
                 {link.label}
               </a>
             ))}
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                width: "100%",
-                justifyContent: "center",
-                gap: 20,
-                marginLeft: 10,
-              }}
+          </div>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              width: "100%",
+              justifyContent: "center",
+              gap: 20,
+              marginLeft: 10,
+            }}
+          >
+            <a
+              href="https://youtube.com/@rccgfountainoflifescarboro8129?si=ndAK1NcQz-MhdKM3"
+              target="_blank"
             >
-              <a
-                href="https://youtube.com/@rccgfountainoflifescarboro8129?si=ndAK1NcQz-MhdKM3"
-                target="_blank"
-              >
-                <Youtube size={20} />
-              </a>
-              <a
-                href="https://www.instagram.com/rccg_fol_ca?igsh=MW1qNmRyeml2M2JoMQ%3D%3D&utm_source=qr"
-                target="_blank"
-              >
-                <Instagram size={18} />
-              </a>
-              <a
-                href="https://www.facebook.com/share/17tzAGCpfM/?mibextid=wwXIfr"
-                target="_blank"
-              >
-                <Facebook size={19} />
-              </a>
-            </div>
+              <Youtube size={20} />
+            </a>
+            <a
+              href="https://www.instagram.com/rccg_fol_ca?igsh=MW1qNmRyeml2M2JoMQ%3D%3D&utm_source=qr"
+              target="_blank"
+            >
+              <Instagram size={18} />
+            </a>
+            <a
+              href="https://www.facebook.com/share/17tzAGCpfM/?mibextid=wwXIfr"
+              target="_blank"
+            >
+              <Facebook size={19} />
+            </a>
           </div>
         </nav>
       )}

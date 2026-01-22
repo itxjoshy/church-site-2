@@ -1,4 +1,5 @@
 /* Header container */
+
 .header {
   position: fixed;
   top: 0;
@@ -100,9 +101,12 @@ header a {
 
 /* Mobile nav */
 .nav-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 1.5rem 1.5rem;
   border-top: 1px solid hsl(var(--border) / 0.5);
-  background-color: hsl(var(--background));
+  background-color: hsl(var(--background) / 0.1);
   animation: fade-in 0.3s ease-out forwards;
 }
 
