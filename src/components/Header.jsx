@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Facebook, Instagram, Youtube } from "lucide-react";
 import logo from "@/assets/logo.png";
 import "./header.css";
 const navLinks = [
@@ -27,7 +27,17 @@ export const Header = () => {
               {link.label}
             </a>
           ))}
-          <button className="visit-button">Plan Your Visit</button>
+          <div
+            style={{
+              display: "flex",
+              gap: 20,
+              marginLeft: 10,
+            }}
+          >
+            <Youtube size={20} />
+            <Instagram size={20} />
+            <Facebook size={20} />
+          </div>
         </nav>
 
         {/* Mobile Menu Toggle */}
