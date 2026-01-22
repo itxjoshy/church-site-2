@@ -124,16 +124,6 @@ header a {
   color: hsl(var(--foreground));
 }
 
-.visit-button-mobile {
-  width: 100%;
-  margin-top: 1rem;
-  background-color: hsl(var(--primary));
-  color: hsl(var(--primary-foreground));
-  padding: 0.7rem;
-  border-radius: 2px;
-  border: none;
-}
-
 /* Animations */
 @keyframes fade-in {
   0% {
