@@ -45,13 +45,13 @@ export const Header = () => {
               href="https://www.instagram.com/rccg_fol_ca?igsh=MW1qNmRyeml2M2JoMQ%3D%3D&utm_source=qr"
               target="_blank"
             >
-              <Instagram size={20} />
+              <Instagram size={18} />
             </a>
             <a
               href="https://www.facebook.com/share/17tzAGCpfM/?mibextid=wwXIfr"
               target="_blank"
             >
-              <Facebook size={20} />
+              <Facebook size={19} />
             </a>
           </div>
         </nav>
