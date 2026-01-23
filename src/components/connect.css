@@ -50,6 +50,38 @@
   display: grid;
   gap: 1.5rem;
 }
+.connect__grid > .connect__card:nth-child(1) {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.248), rgba(0, 0, 0, 0.245)),
+    url("../assets/contactimg-2.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.connect__grid > .connect__card:nth-child(2) {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/contactimg-2.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.connect__grid > .connect__card:nth-child(3) {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/contactimg-3.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.connect__grid > .connect__card:nth-child(4) {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/contactimg-4.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
 
 @media (min-width: 640px) {
   .connect__grid {
