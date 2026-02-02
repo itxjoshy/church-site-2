@@ -1,30 +1,30 @@
-import { Users, HandHeart, GraduationCap, Heart } from "lucide-react";
+import { User, UserRound, GraduationCap, Baby } from "lucide-react";
 import "./connect.css";
 
 const groups = [
   {
-    icon: Users,
-    title: "Small Groups",
+    icon: Baby,
+    title: "Babies & Toddlers",
     description:
-      "Connect with others in a smaller, more intimate setting for study and fellowship.",
-  },
-  {
-    icon: HandHeart,
-    title: "Serve",
-    description:
-      "Use your gifts and talents to make a difference in our church and community.",
+      "A safe, loving environment where our youngest children are cared for and nurtured during services.",
   },
   {
     icon: GraduationCap,
-    title: "Classes",
+    title: "Teens",
     description:
-      "Grow in your faith through Bible studies, workshops, and discipleship courses.",
+      "A vibrant space for teens to grow in faith, build friendships, and learn how to live out God’s word.",
   },
   {
-    icon: Heart,
-    title: "Care",
+    icon: User,
+    title: "Men",
     description:
-      "Find support through our pastoral care, prayer ministry, and support groups.",
+      "A community where men grow together through fellowship, accountability, and spiritual development.",
+  },
+  {
+    icon: UserRound,
+    title: "Women",
+    description:
+      "A welcoming space for women to connect, grow spiritually, and support one another in faith and life.",
   },
 ];
 
@@ -54,7 +54,7 @@ export const Connect = () => {
         </div>
 
         <div className="connect__cta">
-          <button className="btn btn-primary btn-lg">Connect With Us</button>
+          <button>Connect With Us</button>
         </div>
       </div>
     </section>
