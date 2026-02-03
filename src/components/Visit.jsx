@@ -63,10 +63,6 @@ export const Visit = () => {
                 </div>
               </div>
             </div>
-
-            <button className="btn btn-primary btn-lg">
-              Plan Your First Visit
-            </button>
           </div>
 
           {/* RIGHT MAP CARD */}
