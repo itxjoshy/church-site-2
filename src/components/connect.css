@@ -53,7 +53,7 @@
 .connect__grid > .connect__card:nth-child(1) {
   background:
     linear-gradient(rgba(0, 0, 0, 0.248), rgba(0, 0, 0, 0.245)),
-    url("../assets/contactimg-2.jpeg");
+    url("../assets/contactimg-1.JPG");
   background-size: cover;
   background-position: center;
   color: white;
