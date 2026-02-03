@@ -16,6 +16,13 @@ const services = [
     features: ["Small Groups", "Youth Ministry"],
     icons: [Clock, Clock],
   },
+  {
+    day: "Friday Evening - online",
+    times: ["7:00 PM"],
+    description: "Online Prayer Meetings",
+    features: ["Small Groups", "Youth Ministry"],
+    icons: [Clock, Clock],
+  },
 ];
 
 export const Services = () => {

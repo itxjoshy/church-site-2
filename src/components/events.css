@@ -92,7 +92,7 @@
 .events__date {
   flex-shrink: 0;
   text-align: center;
-  background-color: hsla(120, 10%, 51%, 0.1);
+  background-color: hsl(var(--primary) / 0.2);
   border-radius: var(--radius);
   padding: 1rem;
   width: 5rem;
@@ -110,7 +110,7 @@
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: hsla(120, 10%, 51%, 0.8);
+  color: hsla(0, 0%, 0%, 0.8);
 }
 
 .events__info {
