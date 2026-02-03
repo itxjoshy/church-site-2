@@ -1,0 +1,43 @@
+.carousel {
+  width: 100%;
+
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.track {
+  display: flex;
+  flex-wrap: nowrap;
+  animation: scroll-left var(--scroll-speed) linear infinite;
+}
+
+.track.reverse {
+  animation: scroll-right var(--scroll-speed) linear infinite;
+}
+
+.track img {
+  width: 300px; /* all images same width */
+  height: 300px;
+  object-fit: cover;
+  margin: 0 10px;
+  flex-shrink: 0;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
