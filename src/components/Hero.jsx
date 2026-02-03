@@ -31,7 +31,7 @@ export const Hero = () => {
             href="https://youtube.com/@rccgfountainoflifescarboro8129?si=ndAK1NcQz-MhdKM3"
             target="_blank"
           >
-            <button className="hero-button primary">Join Us Sunday</button>
+            <button className="hero-button primary">Join Us This Sunday</button>
           </a>
         </div>
 
@@ -43,7 +43,7 @@ export const Hero = () => {
           </div>
           <div className="divider" />
           <div className="service">
-            <p className="day">Wednesday - online </p>
+            <p className="day">Wednesday</p>
             <p className="time">7:00 PM</p>
           </div>
         </div>
@@ -55,7 +55,7 @@ export const Hero = () => {
         className="scroll-indicator"
         style={{ animationDelay: "1.2s" }}
       >
-        <ChevronDown size={32} />
+        <ChevronDown size={18} />
       </a>
     </section>
   );

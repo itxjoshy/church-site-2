@@ -102,6 +102,8 @@
   background-color: hsl(var(--primary));
   color: hsl(var(--primary-foreground));
   width: max-content;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .hero-button.primary:hover {
@@ -189,5 +191,22 @@
   }
   50% {
     transform: translateY(-10px);
+  }
+}
+@media (max-height: 640px) {
+  .hero-section {
+    padding-top: 80px;
+  }
+  .hero__title {
+    font-size: 3rem;
+  }
+  .hero__subtitle {
+    font-size: 1rem;
+  }
+  .hero-services .divider {
+    display: block;
+  }
+  .scroll-indicator {
+    bottom: 0;
   }
 }
