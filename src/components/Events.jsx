@@ -3,19 +3,19 @@ import "./events.css";
 
 const events = [
   {
-    date: { day: "1", month: "February" },
+    date: { day: "1", month: "Feb" },
     title: "Women's Prayer Breakfast",
     time: "8:00 AM",
     category: "Women's Ministry",
   },
   {
-    date: { day: "15", month: "February" },
+    date: { day: "15", month: "Feb" },
     title: "Youth Winter Retreat",
     time: "All Weekend",
     category: "Youth",
   },
   {
-    date: { day: "28", month: "February" },
+    date: { day: "28", month: "Feb" },
     title: "Community Outreach Day",
     time: "9:00 AM - 2:00 PM",
     category: "Outreach",
