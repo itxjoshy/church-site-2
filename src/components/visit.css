@@ -76,7 +76,7 @@
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  background-color: hsla(120, 10%, 51%, 0.1);
+  background-color: hsl(var(--primary) / 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
