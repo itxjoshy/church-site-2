@@ -52,10 +52,6 @@ export const Connect = () => {
             </div>
           ))}
         </div>
-
-        <div className="connect__cta">
-          <button>Connect With Us</button>
-        </div>
       </div>
     </section>
   );
