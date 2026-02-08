@@ -41,11 +41,6 @@ export const Hero = () => {
             <p className="day">Sunday</p>
             <p className="time">10 AM</p>
           </div>
-          <div className="divider" />
-          <div className="service">
-            <p className="day">Wednesday</p>
-            <p className="time">7:00 PM</p>
-          </div>
         </div>
       </div>
 

@@ -125,19 +125,6 @@
   text-align: center;
 }
 
-.hero-services .divider {
-  width: 1px;
-  height: 3rem;
-  background-color: hsl(var(--primary-foreground) / 0.3);
-  display: none;
-}
-
-@media (min-width: 640px) {
-  .hero-services .divider {
-    display: block;
-  }
-}
-
 .hero-services .day {
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -201,9 +188,6 @@
   }
   .hero__subtitle {
     font-size: 1rem;
-  }
-  .hero-services .divider {
-    display: block;
   }
   .scroll-indicator {
     bottom: 0;
