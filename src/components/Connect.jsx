@@ -16,7 +16,7 @@ const groups = [
   },
   {
     icon: Rocket,
-    title: "Youth",
+    title: "Youth & Young Adults",
     description:
       "A thriving and active youth community where young people grow in faith, build lasting friendships.",
   },
