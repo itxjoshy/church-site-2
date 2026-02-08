@@ -52,6 +52,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   flex-direction: column;
   border-radius: var(--radius);
   box-shadow: var(--shadow-soft);
@@ -135,6 +136,7 @@
   padding: 0.75rem 1.25rem;
   border-radius: 999px;
   box-shadow: var(--shadow-soft);
+  text-align: center;
 }
 
 .services__location-icon {

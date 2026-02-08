@@ -129,19 +129,3 @@
   color: hsl(40, 33%, 97% / 0.5);
   font-size: 0.875rem;
 }
-
-.footer__legal {
-  display: flex;
-  gap: 1.5rem;
-}
-
-.footer__legal-link {
-  color: hsla(40, 33%, 97%, 0.5);
-  text-decoration: none;
-  font-size: 0.875rem;
-  transition: color 0.2s;
-}
-
-.footer__legal-link:hover {
-  color: hsla(40, 33%, 97%, 0.7);
-}
