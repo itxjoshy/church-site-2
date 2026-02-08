@@ -48,7 +48,7 @@ export const Header = () => {
               <Instagram size={18} />
             </a>
             <a
-              href="https://www.facebook.com/share/17tzAGCpfM/?mibextid=wwXIfr"
+              href="https://www.facebook.com/rccgfol?mibextid=wwXIfr&rdid=2gyUd5K6J4wNVN9N&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1AHBGJZAJ2%2F%3Fmibextid%3DwwXIfr#"
               target="_blank"
             >
               <Facebook size={19} />
@@ -104,7 +104,7 @@ export const Header = () => {
               <Instagram size={18} />
             </a>
             <a
-              href="https://www.facebook.com/share/17tzAGCpfM/?mibextid=wwXIfr"
+              href="https://www.facebook.com/rccgfol?mibextid=wwXIfr&rdid=2gyUd5K6J4wNVN9N&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1AHBGJZAJ2%2F%3Fmibextid%3DwwXIfr#"
               target="_blank"
             >
               <Facebook size={19} />

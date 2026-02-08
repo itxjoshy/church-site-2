@@ -48,7 +48,7 @@
 
 .connect__grid {
   display: grid;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 .connect__grid > .connect__card:nth-child(1) {
   background:
@@ -60,7 +60,7 @@
 }
 .connect__grid > .connect__card:nth-child(2) {
   background:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../assets/contactimg-2.jpeg");
   background-size: cover;
   background-position: center;
@@ -68,15 +68,23 @@
 }
 .connect__grid > .connect__card:nth-child(3) {
   background:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../assets/contactimg-3.jpeg");
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/contactimg-5.jpeg");
   background-size: cover;
   background-position: center;
   color: white;
 }
 .connect__grid > .connect__card:nth-child(4) {
   background:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/contactimg-3.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.connect__grid > .connect__card:nth-child(5) {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../assets/contactimg-4.jpeg");
   background-size: cover;
   background-position: center;
@@ -91,7 +99,7 @@
 
 @media (min-width: 1024px) {
   .connect__grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 

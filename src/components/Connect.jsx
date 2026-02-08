@@ -1,4 +1,4 @@
-import { User, UserRound, GraduationCap, Baby } from "lucide-react";
+import { User, UserRound, GraduationCap, Baby, Rocket } from "lucide-react";
 import "./connect.css";
 
 const groups = [
@@ -13,6 +13,12 @@ const groups = [
     title: "Teens",
     description:
       "A vibrant space for teens to grow in faith, build friendships, and learn how to live out God’s word.",
+  },
+  {
+    icon: Rocket,
+    title: "Youth",
+    description:
+      "A thriving and active youth community where young people grow in faith, build lasting friendships.",
   },
   {
     icon: User,
