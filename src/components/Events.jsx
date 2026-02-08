@@ -4,21 +4,21 @@ import "./events.css";
 const events = [
   {
     date: { day: "1", month: "Feb" },
-    title: "Women's Prayer Breakfast",
-    time: "8:00 AM",
-    category: "Women's Ministry",
+    title: "Thanksgiving Service",
+    time: "10:00 AM",
+    category: "Sunday Service",
   },
   {
     date: { day: "15", month: "Feb" },
-    title: "Youth Winter Retreat",
-    time: "All Weekend",
-    category: "Youth",
+    title: "Praise and Prayer Service",
+    time: "10:00 AM",
+    category: "Sunday Service",
   },
   {
     date: { day: "28", month: "Feb" },
-    title: "Community Outreach Day",
-    time: "9:00 AM - 2:00 PM",
-    category: "Outreach",
+    title: "Youth Hangout",
+    time: "5:00 PM - 7:00 PM",
+    category: "Youth",
   },
 ];
 
