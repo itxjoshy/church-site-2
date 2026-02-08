@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "https://rccgfountainoflife.ca/:path*",
-      "destination": "https://www.rccgfountainoflife.ca/:path*",
-      "permanent": true
-    }
-  ]
-}

@@ -6,7 +6,7 @@ const services = [
     day: "Sunday Morning",
     times: ["10:00 AM"],
     description: "Traditional worship with contemporary elements",
-    features: ["Live Worship", "Children's Ministry"],
+    features: ["Live Worship", "Sunday Service"],
     icons: [Music, Baby],
   },
   {
