@@ -49,7 +49,7 @@ export const Visit = () => {
                 </div>
                 <div>
                   <h4 className="visit__contact-label">Phone</h4>
-                  <p className="visit__contact-value">(555) 123-4567</p>
+                  <p className="visit__contact-value">+1 (289) 387-3964</p>
                 </div>
               </div>
 

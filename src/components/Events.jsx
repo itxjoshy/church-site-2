@@ -3,19 +3,19 @@ import "./events.css";
 
 const events = [
   {
-    date: { day: "12", month: "Jan" },
+    date: { day: "1", month: "February" },
     title: "Women's Prayer Breakfast",
     time: "8:00 AM",
     category: "Women's Ministry",
   },
   {
-    date: { day: "19", month: "Jan" },
+    date: { day: "15", month: "February" },
     title: "Youth Winter Retreat",
     time: "All Weekend",
     category: "Youth",
   },
   {
-    date: { day: "26", month: "Jan" },
+    date: { day: "28", month: "February" },
     title: "Community Outreach Day",
     time: "9:00 AM - 2:00 PM",
     category: "Outreach",
@@ -31,10 +31,10 @@ export const Events = () => {
             <p className="events__eyebrow">What's Happening</p>
             <h2 className="events__title">Upcoming Events</h2>
           </div>
-          <button className="btn btn-outline btn-md events__calendar-btn">
+          {/* <button className="btn btn-outline btn-md events__calendar-btn">
             <Calendar size={18} />
             View Full Calendar
-          </button>
+          </button> */}
         </div>
 
         <div className="events__list">

@@ -73,8 +73,8 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="tel:+2348012345678" className="footer__link">
-                  (123) 456-7890
+                <a href="tel:+1(289)3873964" className="footer__link">
+                  +1 (289) 387-3964
                 </a>
               </li>
               <li>
