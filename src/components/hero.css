@@ -27,7 +27,6 @@
   position: absolute;
   inset: 0;
   background-color: hsl(var(--foreground) / 0.4);
-  border-radius: 0 0 30px 30px;
 }
 
 /* Content Container */
