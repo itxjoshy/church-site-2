@@ -17,9 +17,9 @@ const services = [
     icons: [Clock, Clock],
   },
   {
-    day: "Friday Evening - online",
+    day: "Friday Evening - in-church and online",
     times: ["7:00 PM"],
-    description: "Online Prayer Meetings",
+    description: "Bible Study",
     features: ["Small Groups", "Youth Ministry"],
     icons: [Clock, Clock],
   },
