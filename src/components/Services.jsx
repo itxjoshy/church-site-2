@@ -1,5 +1,6 @@
-import { Clock, MapPin, Music, Baby } from "lucide-react";
+import { Clock, MapPin, Music, Baby, Church } from "lucide-react";
 import "./services.css";
+import { chai } from "globals";
 
 const services = [
   {
@@ -7,21 +8,21 @@ const services = [
     times: ["10:00 AM"],
     description: "Traditional worship with contemporary elements",
     features: ["Live Worship", "Sunday Service"],
-    icons: [Music, Baby],
+    icons: [Music, Church],
   },
   {
     day: "Wednesday Evening - online",
     times: ["7:00 PM"],
     description: "Online Prayer Meetings",
     features: ["Small Groups", "Youth Ministry"],
-    icons: [Clock, Clock],
+    icons: [Clock, Church],
   },
   {
     day: "Friday Evening - in-church and online",
     times: ["7:00 PM"],
     description: "Bible Study",
     features: ["Small Groups", "Youth Ministry"],
-    icons: [Clock, Clock],
+    icons: [Clock, Church],
   },
 ];
 
