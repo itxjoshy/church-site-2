@@ -1,11 +1,14 @@
 .pastors-section {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 2rem;
   justify-content: center;
   position: relative;
   padding: 2rem;
   color: white;
 }
+
 .container:has(.pastors-section) {
   background-color: hsl(var(--primary));
   margin: 0;
@@ -13,8 +16,8 @@
 }
 
 .pastors-section img {
-  margin-right: 2rem;
   border-radius: 20px;
+  max-width: 100%;
 }
 
 .pastors-section-text {
@@ -36,4 +39,25 @@
 .pastors-section h1 {
   font-size: 2.4rem;
   font-weight: bold;
+}
+@media screen and (max-width: 1266px) {
+  .pastors-section {
+    text-align: center;
+  }
+  .pastors-section-text p {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pastors-section h1 {
+    font-size: 2rem;
+  }
+
+  .pastors-section h2 {
+    font-size: 1.25rem;
+  }
+
+  .pastors-section-text {
+    padding: 1rem;
+  }
 }
