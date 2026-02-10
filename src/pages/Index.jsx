@@ -7,6 +7,7 @@ import { Connect } from "@/components/Connect";
 import { Visit } from "@/components/Visit";
 import { Footer } from "@/components/Footer";
 import { Carousel } from "@/components/Carousel";
+import { Pastor } from "@/components/Pastor";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
         <Hero />
         <About />
         <Services />
+        <Pastor />
         <Events />
         <Connect />
         <Carousel />

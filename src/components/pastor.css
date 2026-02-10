@@ -1,0 +1,39 @@
+.pastors-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 2rem;
+  color: white;
+}
+.container:has(.pastors-section) {
+  background-color: hsl(var(--primary));
+  margin: 0;
+  max-width: 100%;
+}
+
+.pastors-section img {
+  margin-right: 2rem;
+  border-radius: 20px;
+}
+
+.pastors-section-text {
+  max-width: 600px;
+  line-height: 35px;
+  display: grid;
+  gap: 1rem;
+}
+.pastors-section-text p {
+  max-width: 500px;
+}
+
+.pastors-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.pastors-section h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
