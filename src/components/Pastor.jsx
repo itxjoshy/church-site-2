@@ -8,7 +8,7 @@ export function Pastor() {
       <div className="pastors-section">
         <img src={pastorImg} alt="Pastor" />
         <div className="pastors-section-text">
-          <h2>Meet our pastors</h2>
+          <h2>Meet Our Senior Pastor</h2>
           <h1>Pastor Femi and Dcns Folu Ajimoko</h1>
           <p>
             Pastor Femi and Dcns. Folu Ajimoko serve together with a shared
