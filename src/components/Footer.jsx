@@ -1,5 +1,8 @@
+import dayjs from "dayjs";
 import { Facebook, Instagram, Youtube } from "lucide-react";
 import "./footer.css";
+
+const currentYear = dayjs().format("YYYY");
 
 const links = {
   about: [
@@ -88,7 +91,7 @@ export const Footer = () => {
 
         <div className="footer__bottom">
           <p className="footer__copyright">
-            © 2026 Fountain Of Life. All rights reserved.
+            © {currentYear} Fountain Of Life. All rights reserved.
           </p>
         </div>
       </div>

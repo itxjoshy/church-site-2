@@ -1,21 +1,24 @@
+import dayjs from "dayjs";
 import { Calendar, ArrowRight } from "lucide-react";
 import "./events.css";
 
+const currentMonth = dayjs().format("MMMM");
+
 const events = [
   {
-    date: { day: "1", month: "Feb" },
+    date: { day: "1", month: currentMonth },
     title: "Thanksgiving Service",
     time: "10:00 AM",
     category: "Sunday Service",
   },
   {
-    date: { day: "15", month: "Feb" },
+    date: { day: "15", month: currentMonth },
     title: "Praise and Prayer Service",
     time: "10:00 AM",
     category: "Sunday Service",
   },
   {
-    date: { day: "28", month: "Feb" },
+    date: { day: "28", month: currentMonth },
     title: "Youth Hangout",
     time: "5:00 PM - 7:00 PM",
     category: "Youth",
